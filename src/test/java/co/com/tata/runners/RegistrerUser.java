@@ -9,11 +9,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/consultar_gato.feature",
-        glue = {"co.com.devco.stepdefinitions"},
+        features = "src/test/resources/features/registerUser.feature",
+        glue = {"co.com.tata.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
         )
 
-public class ConsultarGatoRunner {
+public class RegistrerUser {
 
 }

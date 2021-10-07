@@ -5,5 +5,5 @@ Feature: Tata Communit
   @scenario1
   Scenario: Login on the web page
     Given than Luz wants login on the web page
-    When she Diligence the form on demoblaze web page
-    Then she have a successfully login on the demoblaze platform
+    When Luz Diligence the form on demoblaze web page
+    Then Luz have a successfully login on the demoblaze platform

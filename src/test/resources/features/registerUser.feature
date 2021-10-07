@@ -5,5 +5,5 @@ Feature: Tata Communit
   @scenario1
   Scenario: Create new user
     Given than Luz wants be a user of the web page
-    When she Diligence the differents registration forms on demoblaze web page
+    When Luz Diligence the differents registration forms on demoblaze web page
     Then she is successfully registered on the demoblaze platform
