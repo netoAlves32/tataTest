@@ -14,6 +14,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
         snippets = SnippetType.CAMELCASE
         )
 
-public class RegistrerUser {
+public class RegisterUser {
 
 }
