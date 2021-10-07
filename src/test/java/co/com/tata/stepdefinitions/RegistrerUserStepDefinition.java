@@ -1,5 +1,6 @@
 package co.com.tata.stepdefinitions;
 
+import co.com.tata.tasks.OpenUp;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -14,14 +15,14 @@ public class RegistrerUserStepDefinition {
         throw new PendingException();
     }
 
-    @When("^she Diligence the differents registration forms on demoblaze web page$")
-    public void sheDiligenceTheDifferentsRegistrationFormsOnDemoblazeWebPage() {
-        // Write code here that turns the phrase above into concrete actions
+    @When("^Luz Diligence the differents registration forms on demoblaze web page$")
+    public void LuzDiligenceTheDifferentsRegistrationFormsOnDemoblazeWebPage() {
+        OnStage.theActorInTheSpotlight().attemptsTo(DiligencePerson.onTheForm(), DiligenceAdress.onTheForm(), DiligenceDevices.onTheForm(), DiligencePassword.onTheForm());
         throw new PendingException();
     }
 
-    @Then("^she is successfully registered on the demoblaze platform$")
-    public void sheIsSuccessfullyRegisteredOnTheDemoblazePlatform() {
+    @Then("^Luz is successfully registered on the demoblaze platform$")
+    public void LuzIsSuccessfullyRegisteredOnTheDemoblazePlatform() {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
