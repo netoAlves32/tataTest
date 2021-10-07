@@ -1,9 +1,8 @@
-package co.com.devco.stepdefinitions;
+package co.com.tata.stepdefinitions;
 
-import co.com.devco.tasks.Abriendo;
-import co.com.devco.tasks.Abrir;
-import co.com.devco.tasks.Desplegar;
-import co.com.devco.tasks.Filtro;
+import co.com.tata.tasks.Abriendo;
+import co.com.tata.tasks.Desplegar;
+import co.com.tata.tasks.Filtro;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;

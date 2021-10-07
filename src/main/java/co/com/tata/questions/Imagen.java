@@ -1,11 +1,10 @@
-package co.com.devco.questions;
+package co.com.tata.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Attribute;
 
-import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
-import static co.com.devco.userinterfaces.PetbookDir.*;
+import static co.com.tata.userinterfaces.PetbookDir.*;
 
 public class Imagen implements Question<Boolean> {
     private String algo;

@@ -1,14 +1,11 @@
-package co.com.devco.tasks;
+package co.com.tata.tasks;
 
-import co.com.devco.userinterfaces.PetbookDir;
+import co.com.tata.userinterfaces.PetbookDir;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
-
-
-import static co.com.devco.userinterfaces.PetbookDir.*;
 
 public class Filtro implements Task {
 

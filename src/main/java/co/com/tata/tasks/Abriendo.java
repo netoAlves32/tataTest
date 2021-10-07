@@ -1,14 +1,10 @@
-package co.com.devco.tasks;
+package co.com.tata.tasks;
 
-import co.com.devco.userinterfaces.PetbookHome;
+import co.com.tata.userinterfaces.PetbookHome;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
-import org.openqa.selenium.Proxy;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
 
 public class Abriendo implements Task {
 

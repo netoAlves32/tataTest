@@ -1,4 +1,4 @@
-package co.com.devco.runners;
+package co.com.tata.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;

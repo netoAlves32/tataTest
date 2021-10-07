@@ -1,4 +1,4 @@
-package co.com.devco.runners;
+package co.com.tata.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -7,9 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/consultar_perro.feature",
+        features = "src/test/resources/features/filtrar_todos.feature",
         glue = {"co.com.devco.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
         )
-public class ConsultarPerroRunner {
+public class FiltrarImagenesRunner {
+
 }

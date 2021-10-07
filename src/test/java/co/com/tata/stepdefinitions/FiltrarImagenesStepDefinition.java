@@ -1,13 +1,13 @@
-package co.com.devco.stepdefinitions;
+package co.com.tata.stepdefinitions;
 
-import co.com.devco.questions.Imagenes;
-import co.com.devco.tasks.Abriendo;
-import co.com.devco.tasks.Filtrar;
+import co.com.tata.questions.Imagenes;
+import co.com.tata.tasks.Abriendo;
+import co.com.tata.tasks.Filtrar;
 import cucumber.api.java.Before;
 import cucumber.api.java.ast.Cuando;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Entonces;
-import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -37,7 +37,7 @@ public class FiltrarImagenesStepDefinition {
 
     @Entonces("^debe ver solo fotos de (.*)")
     public void debeVerSoloFotosDeAlgo(String algo) {
-        theActorInTheSpotlight().should(seeThat(Imagenes.son(algo)));
+        theActorInTheSpotlight().should(GivenWhenThen.seeThat(Imagenes.son(algo)));
     }
 
 }
