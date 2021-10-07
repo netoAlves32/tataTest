@@ -1,5 +1,6 @@
 package co.com.tata.stepdefinitions;
 
+import co.com.tata.tasks.Complete;
 import co.com.tata.tasks.DiligenceData;
 import co.com.tata.tasks.OpenUp;
 import cucumber.api.java.en.Given;
@@ -9,8 +10,8 @@ import net.serenitybdd.screenplay.actors.OnStage;
 
 public class RegisterUserStepDefinition {
 
-    @Given("^than Luz wants be a user of the web page$")
-    public void thanLuzWantsBeAUserOfTheWebPage() {
+    @Given("^than Luz wants be a user on the web page$")
+    public void than_Luz_Wants_Be_A_User_On_The_Web_Page() {
         OnStage.theActorCalled("Luz").wasAbleTo(OpenUp.thePage());
     }
 

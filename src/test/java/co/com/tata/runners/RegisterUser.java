@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/registerUser.feature",
+        tags = {"@challenges"},
         glue = {"co.com.tata.stepdefinitions"},
         snippets = SnippetType.CAMELCASE
         )
