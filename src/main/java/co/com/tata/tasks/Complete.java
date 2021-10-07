@@ -12,6 +12,7 @@ public class Complete implements Task {
         return Tasks.instrumented(Complete.class);
     }
 
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
